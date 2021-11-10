@@ -103,7 +103,6 @@ PyGObject==3.40.1
 pykickstart==3.32
 pyOpenSSL==21.0.0
 pyparsing==2.4.7
-pyparted==3.11.7
 pyrsistent==0.18.0
 pyserial==3.5
 PySocks==1.7.1
