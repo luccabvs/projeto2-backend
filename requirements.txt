@@ -122,13 +122,11 @@ requests-gssapi==1.2.3
 requests-unixsocket==0.2.0
 rsa==4.7.2
 scipy==1.7.1
-selinux==3.2
 semver==2.13.0
 Send2Trash==1.8.0
 sepolicy==3.2
 setools==4.4.0
 shellingham==1.3.2
-simpleaudio==1.0.4
 simpleline==1.8
 six==1.15.0
 slip==0.6.4
