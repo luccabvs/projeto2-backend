@@ -53,11 +53,8 @@ koji==1.26.1
 langtable==0.0.56
 lib==3.0.0
 lxml==4.6.3
-Mako==1.1.4.dev0
 Markdown==3.3.4
 MarkupSafe==2.0.1
-matplotlib==3.4.3
-matplotlib-inline==0.1.2
 mistune==0.8.4
 mpmath==1.2.1
 mps-youtube==0.2.8
