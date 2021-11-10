@@ -27,6 +27,19 @@ def api_post_user(request):
     serialized_user = UserSerializer(user)
     return Response(serialized_user.data)
 
+@api_view(['DELETE'])
+def api_delete_user(request):                
+    try:
+        user = User.objects.get(name=request.data['name'])
+    except User.DoesNotExist:
+        raise Http404()
+    favorites = Favorite.objects.filter(user=user)
+    user.delete()
+    favorites.delete()
+
+    serialized_user = UserSerializer(user)
+    return Response(serialized_user.data)
+
 @api_view(['GET'])
 def api_get_favorite(request, user_name):                
     try:
@@ -56,3 +69,7 @@ def api_delete_favorite(request):
 
     serialized_favorite = FavoriteSerializer(favorite)
     return Response(serialized_favorite.data)
+
+def handler404(request, exception):
+    return render(request, 'templates/404.html', status=404)
+    
