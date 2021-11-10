@@ -99,7 +99,6 @@ pycurl==7.43.0.6
 pyenchant==3.2.1
 pygit2==1.5.0
 Pygments==2.10.0
-PyGObject==3.40.1
 pykickstart==3.32
 pyOpenSSL==21.0.0
 pyparsing==2.4.7
