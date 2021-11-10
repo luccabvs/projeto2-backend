@@ -127,8 +127,6 @@ Send2Trash==1.8.0
 shellingham==1.3.2
 simpleline==1.8
 six==1.15.0
-slip==0.6.4
-slip.dbus==0.6.4
 sniffio==1.2.0
 sos==4.1
 soupsieve==2.2
