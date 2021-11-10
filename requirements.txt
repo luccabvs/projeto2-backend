@@ -24,7 +24,6 @@ cryptography==3.4.6
 cycler==0.10.0
 dasbus==1.4
 DateTime==4.3
-dbus-python==1.2.18
 debugpy==1.4.1
 decorator==4.4.2
 defusedxml==0.7.1
